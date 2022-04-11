@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@99.8,400&display=swap");
+
+nav {
+  width: 100vw;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  background-color: rgb(230, 230, 230);
+  padding: 10px 30px 10px 20px;
+  font-family: "Fredoka";
+  z-index: 100;
+}
+
+.menu_list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.NavlinkStyle {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  opacity: 0.6;
+}
+
+.titleName {
+  /* width: 40%; */
+  display: flex;
+  align-items: center;
+  font-family: Fredoka;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgba(221, 41, 41, 0.884);
+}
